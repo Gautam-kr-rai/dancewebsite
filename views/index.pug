@@ -1,0 +1,59 @@
+//-index.pug
+doctype html
+html
+  head
+    title this is dance website 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+       ul 
+          div#logo 
+             img(src="/static/logo2.webp")
+             |HDA
+          li #[a(href="/") Home ]
+          li #[a(href="/") About us]
+          li #[a(href="/") services]
+          li #[a(href="/") class info]
+          li #[a(href="/") contact us ]
+    section#introsection 
+             div welcome to our Dance Acedamic
+             div.small Dance is an art to Express your feel,
+    section#missonsection 
+             h2 Our Misson
+             div.card 
+                h3 Dance perfection
+                  div.card-box
+                     div.card-img  
+                        img(src="/static/dsmu.webp")
+                     div.card-content 
+                         p unstopable practice's
+
+             div.card 
+                   h3 Dance the way you like
+                      div.card-box
+                         div.card-img  
+                           img(src="/static/card2.webp")
+                         div.card-content 
+                           p Now it's your time
+
+             div.card 
+                   h3 teaching experts
+                     div.card-box
+                       div.card-img  
+                          img(src="/static/card3.webp")
+                       div.card-content 
+                           p Now it's time for Somthing new !
+    section#sponsersection
+            h2 Our sponsers
+            div#sponsers
+              img(src="/static/dharmesh-yelande.webp", alt="sponsers img" class="spimg")
+              img(src="/static/remo-dsouza.webp", alt="sponsers img" class="spimg")
+              img(src="/static/spimg.webp", alt="sponsers img" class="spimg")
+    footer#footer
+            | copyright © our dance acedamic.com  | Alright Reserved !
+
+
+      
+    script
+      include ../static/index.js

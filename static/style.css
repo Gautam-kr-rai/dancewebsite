@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Moon+Dance&display=swap');
+#navbar{
+    background-color:#770505;
+    padding: 14px 20px;
+
+}
+#logo{
+      display: flex;
+      align-items: center;
+      color:white;
+      margin: 0px 12px;
+    }
+#logo img{
+    height: 33px;
+    filter: invert(1);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+#navbar li{
+    list-style: none;
+
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 4px 22px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    transition: all 300ms linear;
+}
+#navbar li a:hover{
+    color: black;
+    background-color: white;
+}
+#introsection{
+    height: 650px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    background: center / cover no-repeat url("/static/drecentbg.avif");
+    font-family: 'Moon Dance', cursive;
+    font-size: 2.6rem;
+    padding-bottom: 100px;
+
+
+}
+#introsection div.small{
+    font-size: 1.4rem;
+}
+#missonsection {
+    height: 500px;
+    margin: auto;
+    width: 90%;
+    display: block;
+}
+#missonsection h2{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 10px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 15px 14px;
+    height: 400px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-img{
+    height: 150px;
+    padding: 0px 15px;
+}
+.card-img img{
+      height: inherit;
+    margin: 13px;
+}
+.card-content{
+    text-align: center;
+    padding: 32px 36px;
+}
+.card-content p{
+    font-family: cursive;
+    font-size: 1.1rem;
+}
+#sponsersection{
+    height: 500px;
+    background-color: #80deea70;
+    /*  */
+}
+#sponsersection h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+#sponsers{
+    height: 200px;
+    margin: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+.spimg{
+    height: 320px;
+    margin: 5px;
+    width: 26%;
+    padding: 15px;
+    border-radius: 54px
+}
+#footer{
+    height: 51px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}

@@ -1,0 +1,43 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+
+block style
+   style
+       include ../static/style.css
+block content 
+     
+     section#introsection 
+             div welcome to our Dance Acedamic
+             div.small Dance is an art to Express your feel,
+     section#missonsection 
+             h2 Our Misson
+             div.card 
+                h3 Dance perfection
+                  div.card-box
+                     div.card-img  
+                        img(src="/static/dsmu.webp")
+                     div.card-content 
+                         p unstopable practice's
+
+             div.card 
+                   h3 Dance the way you like
+                      div.card-box
+                         div.card-img  
+                           img(src="/static/card2.webp")
+                         div.card-content 
+                           p Now it's your time
+
+             div.card 
+                   h3 teaching experts
+                     div.card-box
+                       div.card-img  
+                          img(src="/static/card3.webp")
+                       div.card-content 
+                           p Now it's time for Somthing new !
+     section#sponsersection
+            h2 Our sponsers
+            div#sponsers
+              img(src="/static/dharmesh-yelande.webp", alt="sponsers img" class="spimg")
+              img(src="/static/remo-dsouza.webp", alt="sponsers img" class="spimg")
+              img(src="/static/spimg.webp", alt="sponsers img" class="spimg")
