@@ -1,0 +1,20 @@
+touch .gitignore
+git config --global user.name Gautam
+git config --global user.email Youremail
+git init
+git add .
+fit commit -m "Initial Commit"
+git status #just to see
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+tail <path to id_rsa.pub> #add this key to your github account
+git remote add origin <ssh url.git>
+git push origin master
+
+
+
+to add cheatsheet
+
+git status
+git add .
+git commit -m "Added cheatsheet"
+git push origin master
